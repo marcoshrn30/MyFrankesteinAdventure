@@ -1,0 +1,95 @@
+/* styles.css - BLACK + GREEN THEME */
+:root{
+  --bg:#000000;          /* pure black background */
+  --paper:#0b120d;       /* almost-black with a green tint */
+  --ink:#e6ffe6;         /* light greenish text for readability */
+  --accent:#39ff14;      /* neon green */
+  --accent-2:#9aff9a;    /* soft lime for secondary accents */
+}
+*{box-sizing:border-box}
+html,body{height:100%}
+body{
+  margin:0;
+  padding:0;
+  background:var(--bg);
+  color:var(--ink);
+  font-family: "Georgia", "Times New Roman", serif; /* font-family */
+  font-size: 18px; /* font-size (aka text-size in assignment) */
+  line-height:1.6;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.main{
+  max-width: 820px;
+  padding: 2rem;
+  margin: 2rem;
+  background: var(--paper);
+  border: 1px solid #39ff141a;
+  border-radius: 16px;
+  box-shadow: 0 12px 28px rgba(0,0,0,.65);
+}
+h1{
+  font-size: 2rem;
+  margin-top:0;
+  color: var(--accent); /* color */
+  text-shadow: 0 0 18px #39ff1433, 0 0 3px #39ff1411;
+}
+p{ margin: 1rem 0; }
+.choices{
+  display:grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px,1fr));
+  gap: 1rem;
+  margin-top:1.25rem;
+}
+a.choice{
+  display:block;
+  border:2px solid var(--accent);
+  text-decoration:none; /* text-decoration */
+  color: var(--ink);
+  padding: 1rem;
+  border-radius: 14px;
+  transition: transform .08s ease, background .2s ease, color .2s ease, border-color .2s ease, box-shadow .2s ease;
+  box-shadow: 0 4px 12px rgba(0,0,0,.4);
+}
+a.choice:hover{
+  transform: translateY(-2px);
+  background: var(--accent);
+  color: #001a00;
+  text-decoration: none; /* text-decoration */
+  border-color: var(--accent-2);
+  box-shadow: 0 8px 20px #39ff141f;
+}
+img.ill{
+  width: 200px;
+  height: 200px;
+  object-fit: contain;
+  display:block;
+  margin: .25rem 0 0.75rem 0;
+  filter: drop-shadow(0 4px 16px #000);
+  background: #001a00;
+  border-radius: 10px;
+  padding: 6px;
+  border: 1px solid #39ff1433;
+}
+.back-home{
+  margin-top: 2rem;
+  font-size: .95rem;
+}
+.back-home a{
+  color: var(--accent-2);
+  text-decoration: underline; /* text-decoration */
+}
+.attribution{
+  font-size: .85rem;
+  opacity: .9;
+  margin-top: .75rem;
+  border-top: 1px dashed #39ff1422;
+  padding-top:.6rem;
+}
+footer{
+  margin-top: 1rem;
+  font-size: .8rem;
+  opacity:.85;
+  color:#caffca;
+}

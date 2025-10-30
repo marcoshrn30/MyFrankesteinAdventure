@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <rect width="160" height="160" fill="#000"/>
+  <rect x="20" y="80" width="40" height="40" fill="#0f1a13"/>
+  <rect x="70" y="70" width="40" height="50" fill="#0f1a13"/>
+  <rect x="110" y="85" width="30" height="35" fill="#0f1a13"/>
+  <polygon points="20,80 40,60 60,80" fill="#132218"/>
+  <polygon points="70,70 90,50 110,70" fill="#132218"/>
+  <polygon points="110,85 125,70 140,85" fill="#132218"/>
+  <circle cx="128" cy="32" r="10" fill="#39ff14"/>
+  <text x="80" y="148" text-anchor="middle" font-size="12" fill="#9aff9a">Swiss Village</text>
+</svg>

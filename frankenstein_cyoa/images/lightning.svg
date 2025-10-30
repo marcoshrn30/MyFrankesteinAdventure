@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <rect width="160" height="160" fill="#000"/>
+  <polygon points="80,15 60,80 92,80 72,145 120,65 90,65" fill="#39ff14"/>
+  <text x="80" y="152" text-anchor="middle" font-size="12" fill="#9aff9a">Lightning Strikes</text>
+</svg>

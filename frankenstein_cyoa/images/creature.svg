@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160">
+  <rect width="160" height="160" fill="#000"/>
+  <circle cx="80" cy="90" r="36" fill="#0f1a13"/>
+  <rect x="58" y="58" width="44" height="46" rx="10" fill="#122017"/>
+  <circle cx="68" cy="78" r="6" fill="#39ff14"/>
+  <circle cx="92" cy="78" r="6" fill="#39ff14"/>
+  <rect x="70" y="95" width="20" height="8" rx="4" fill="#9aff9a"/>
+  <rect x="50" y="120" width="60" height="10" rx="5" fill="#071208"/>
+  <text x="80" y="148" text-anchor="middle" font-size="12" fill="#9aff9a">The Creature</text>
+</svg>
